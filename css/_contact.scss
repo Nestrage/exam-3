@@ -1,0 +1,116 @@
+.contact_header {
+  background: url(../img/bookingH.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.contact_header--container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: -100px;
+  width: 100%;
+}
+#mapid {
+  height: 100vh;
+}
+.contact_section {
+  background: #1d4049;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_container {
+  padding-top: 25px;
+}
+
+.contact_image {
+  height: 100vh;
+  //padding: 65px 15px;
+  background: url(../img/Window.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.contact_window {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  margin: 65px 15px;
+  border-radius: 20px;
+}
+.contact_window--header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 180%;
+  /* identical to box height, or 54px */
+  padding: 47px;
+  white-space: nowrap;
+  color: #ffffff;
+  text-align: center;
+}
+.contact_window--point {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 180%;
+  /* identical to box height, or 40px */
+
+  color: #ffffff;
+}
+.contact_window--container {
+  display: flex;
+
+  padding-top: 40px;
+}
+@media screen and (min-width: 555px) {
+  .contact_window--container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
+.contact_window--svg {
+  padding-left: 35px;
+  padding-right: 33px;
+}
+.contact_social--header {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 180%;
+  white-space: nowrap;
+  padding-top: 50px;
+  /* or 43px */
+
+  color: #ffffff;
+}
+.contact_social--container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 45px;
+}
+@media screen and (min-width: 900px) {
+  .contact_container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  #mapid {
+    height: 100vh;
+    width: 40%;
+  }
+  .contact_image {
+    width: 40%;
+  }
+}

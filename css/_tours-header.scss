@@ -1,0 +1,12 @@
+.tours_header {
+  min-width: $width;
+  background: url(../img/toursbg.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

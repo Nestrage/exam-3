@@ -1,0 +1,16 @@
+.bookingHeader {
+  min-width: $width;
+  background: url(../img/bookingH.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.booking_header--container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

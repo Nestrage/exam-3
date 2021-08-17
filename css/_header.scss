@@ -1,0 +1,127 @@
+.header {
+  min-width: $width;
+  height: 100vh;
+  background: url(../img/bgh_m.png), #1d4049;
+  background-size: cover;
+  // padding-left: 15px;
+  // padding-right: 15px;
+  //padding-top: 145px;
+  padding-bottom: 27px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.h_one {
+  margin-top: 145px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.h_two {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 26px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+.header_button {
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scroll {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+  color: #ffffff;
+
+  text-align: center;
+}
+.desktop_header--title {
+  display: none;
+}
+.h_one-d {
+  //margin-top: 145px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  padding: 20px 15px;
+  color: #ffffff;
+}
+.h_two-d {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 26px */
+  padding: 20px 15px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+@media screen and (min-width: 920px) {
+  .desktop_header--title {
+    display: block;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    width: 540px;
+    height: 370px;
+    border-radius: 0px 100px;
+    position: relative;
+    left: 165px;
+    top: 320px;
+    padding-top: 40px;
+  }
+  .scroll {
+    display: none;
+  }
+  .h_one {
+    display: none;
+  }
+  .h_two {
+    display: none;
+  }
+  .header_button {
+    display: none;
+  }
+  .header {
+    border-radius: 0px 0px 0px 100px;
+    background-color: #1d4049;
+  }
+  body {
+    background-color: #1d4049;
+  }
+}

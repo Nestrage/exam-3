@@ -1,0 +1,33 @@
+.emotions {
+  height: 400px;
+  background: url(../img/Frame20.png);
+  background-size: cover;
+  min-width: $width;
+}
+
+.emotions_text {
+  padding: 50px 30px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+@media screen and (min-width: 920px) {
+  .emotions {
+    height: 810px;
+    background: url(../img/GROFA-Beetroot41.png);
+    background-size: cover;
+    border-radius: 0px 100px;
+    z-index: 2;
+  }
+  .emotions_text {
+    padding-top: 350px;
+    font-size: 42px;
+    line-height: 51px;
+  }
+}

@@ -1,0 +1,62 @@
+.bookingSection {
+  //min-width: $width;
+  background: #1d4049;
+  padding-bottom: 150px;
+}
+.booking_form {
+  background: #778c92;
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  margin: 15px;
+  padding: 40px 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.booking_input {
+  padding: 0 20px;
+  margin: 15px;
+  height: 60px;
+  background: #ffffff;
+  border: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.booking_input--large {
+  height: 170px;
+  padding: 0 20px;
+  margin: 15px;
+  border: #ffffff;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.booking_radio {
+  display: flex;
+}
+.booking_radio--text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  margin-bottom: 35px;
+}
+.booking_input--value {
+  color: black;
+}
+.booking_submit {
+  background: #fc5521;
+  border-radius: 72px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 19px;
+}

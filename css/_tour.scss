@@ -1,0 +1,114 @@
+.tour_section {
+  background: #1d4049;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tour_text {
+  margin: 25px 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  padding-left: 20px;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  color: #ffffff;
+}
+.tour_photo {
+  height: 580px;
+  margin: 25px 15px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  overflow: hidden;
+}
+.tour_chapter {
+  margin: 25px 15px;
+}
+.tour_hthree {
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 180%;
+  color: white;
+}
+.tour_button {
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #ffffff;
+  border: 1px solid #fc5521;
+  box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  width: 178px;
+  height: 40px;
+  color: #fc5521;
+  margin-bottom: 25px;
+}
+.tour_button--desc {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  background: #fc5521;
+  border: 1px solid #fc5521;
+  box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  width: 328px;
+  height: 40px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.tour_button--container {
+  text-align: center;
+}
+@media screen and (min-width: 920px) {
+  .tour_block {
+    display: flex;
+    justify-content: center;
+  }
+  .tour_block--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .tour_text {
+    width: 45%;
+  }
+  .tour_photo {
+    width: 45%;
+  }
+  .tour_par {
+    margin: 25px 15px;
+
+    width: 45%;
+  }
+  .tour_button--desc {
+    display: block;
+  }
+  .tour_button {
+    display: none;
+  }
+}

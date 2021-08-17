@@ -1,0 +1,1813 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.section_header--name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
+  margin: 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  /* Orange */
+  color: #fc5521;
+}
+
+.orange_line {
+  position: relative;
+  top: 40px;
+  border: 1px #fc5521 solid;
+  width: 110px;
+  height: 0;
+}
+
+.btn {
+  width: 178px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #fc5521;
+}
+
+.btn-d {
+  width: 318px;
+  height: 40px;
+  background: #fc5521;
+  border: 1px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.mountain {
+  height: 250px;
+  background: url(../img/mountorange.svg), url(../img/mountblur.svg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mountain_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mountain-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 150%;
+  /* identical to box height, or 51px */
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.secondarySection_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.littleOrangeLine {
+  width: 18%;
+  height: 1px;
+  background: #fc5521;
+}
+
+.secondarySection_header--title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  /* Orange */
+  margin-top: -18px;
+  padding-left: 30px;
+  color: #fc5521;
+}
+
+@media screen and (min-width: 920px) {
+  .mountain {
+    background: url(../img/Orangemountain-desc.svg), url(../img/Blurmountaindesc.svg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.header {
+  min-width: 365px;
+  height: 100vh;
+  background: url(../img/bgh_m.png), #1d4049;
+  background-size: cover;
+  padding-bottom: 27px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.h_one {
+  margin-top: 145px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.h_two {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 26px */
+  text-align: center;
+  /* White */
+  color: #ffffff;
+}
+
+.header_button {
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scroll_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+  color: #ffffff;
+  text-align: center;
+}
+
+.desktop_header--title {
+  display: none;
+}
+
+.h_one-d {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  padding: 20px 15px;
+  color: #ffffff;
+}
+
+.h_two-d {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 26px */
+  padding: 20px 15px;
+  text-align: center;
+  /* White */
+  color: #ffffff;
+}
+
+@media screen and (min-width: 920px) {
+  .desktop_header--title {
+    display: block;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    -webkit-backdrop-filter: blur(7px);
+            backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    width: 540px;
+    height: 370px;
+    border-radius: 0px 100px;
+    position: relative;
+    left: 165px;
+    top: 320px;
+    padding-top: 40px;
+  }
+  .scroll {
+    display: none;
+  }
+  .h_one {
+    display: none;
+  }
+  .h_two {
+    display: none;
+  }
+  .header_button {
+    display: none;
+  }
+  .header {
+    border-radius: 0px 0px 0px 100px;
+    background-color: #1d4049;
+  }
+  body {
+    background-color: #1d4049;
+  }
+}
+
+.menu {
+  position: fixed;
+  height: 100px;
+  width: 99vw;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+  z-index: 4;
+}
+
+.menu_icon {
+  position: relative;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.desktop-header-menu {
+  display: none;
+  margin-right: 10%;
+}
+
+.desktop-header-menu_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.desktop-header-menu_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.desktop-header-menu_top--text {
+  margin-left: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  display: block;
+  /* White */
+  color: #ffffff;
+}
+
+.desktop-header-menu_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.desktop-header-menu_link:hover {
+  color: #fc5521;
+}
+
+.desktop-header-menu_bottom--link {
+  margin-left: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  /* White */
+  color: #ffffff;
+}
+
+.desktop-header-menu_bottom--link:hover {
+  color: #fc5521;
+}
+
+@media screen and (min-width: 920px) {
+  .menu_icon {
+    display: none;
+  }
+  .desktop-header-menu {
+    display: block;
+  }
+}
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0;
+  width: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 5;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background: rgba(18, 28, 32, 0.6);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  overflow-y: hidden;
+  /* Disable horizontal scroll */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 10px 15px;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 15%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: left;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-left: 40px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  /* Display block instead of inline */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: relative;
+  top: 5px;
+  margin-left: auto;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.overlay-orangeLine {
+  margin-left: -40px;
+  width: 260px;
+  height: 2px;
+  background: #fc5521;
+}
+
+.description {
+  min-width: 365px;
+  background-color: #1d4049;
+}
+
+@media screen and (min-width: 750px) {
+  .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+  }
+}
+
+.description_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 54px;
+}
+
+.description_container--content {
+  text-align: center;
+}
+
+.desc_h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 25px */
+  text-align: center;
+  text-transform: uppercase;
+  /* White */
+  color: #ffffff;
+  margin: 35px 0px;
+}
+
+.desc_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+  /* White */
+  color: #ffffff;
+}
+
+.emotions {
+  height: 400px;
+  background: url(../img/Frame20.png);
+  background-size: cover;
+  min-width: 365px;
+}
+
+.emotions_text {
+  padding: 50px 30px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media screen and (min-width: 920px) {
+  .emotions {
+    height: 810px;
+    background: url(../img/GROFA-Beetroot41.png);
+    background-size: cover;
+    border-radius: 0px 100px;
+    z-index: 2;
+  }
+  .emotions_text {
+    padding-top: 350px;
+    font-size: 42px;
+    line-height: 51px;
+  }
+}
+
+.announcement {
+  background-color: #1d4049;
+  min-width: 365px;
+}
+
+.announcement_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+  .announcement_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*.announcement_container {
+  //border: red solid 2px;
+}*/
+.announcement_container--content {
+  height: 570px;
+}
+
+.announcement_orange_frame {
+  position: relative;
+  top: -450px;
+  left: 10px;
+  margin-right: 35px;
+  height: 500px;
+  width: 332px;
+  border: 3px solid #fc5521;
+  border-radius: 0px 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+}
+
+.announcement_photo {
+  background: url(../img/Photo.png);
+  background-size: cover;
+  border-radius: 0px 100px;
+  position: relative;
+  top: 30px;
+  left: 26px;
+  z-index: 2;
+  width: 332px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+.announcement_photo-2 {
+  background: url(../img/ph22.png);
+  background-size: cover;
+  border-radius: 0px 100px;
+  position: relative;
+  top: 30px;
+  left: 26px;
+  z-index: 2;
+  width: 332px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+.announcement_photo--blur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+.announce_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: center;
+  color: #121c20;
+}
+
+.announce_date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  color: #121c20;
+}
+
+.announcement_button {
+  background: #fc5521;
+  border-radius: 72px;
+  width: 244px;
+  height: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.review {
+  min-width: 365px;
+}
+
+@media screen and (min-width: 750px) {
+  .review_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .review_container--content {
+    height: 480px;
+    margin-right: 25px;
+  }
+}
+
+.review_container--content {
+  height: 480px;
+}
+
+.review_content {
+  position: relative;
+  left: 14px;
+  top: 80px;
+  background: #1d4049;
+  border-radius: 0px 100px;
+  width: 345px;
+  height: 350px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*.review_content-2 {
+  position: relative;
+  left: 15px;
+  top: 80px;
+  background: #1d4049;
+  border-radius: 0px 100px;
+  width: 343px;
+  height: 350px;
+  z-index: 2;
+}*/
+.review_orange_frame {
+  position: relative;
+  left: 7px;
+  top: -254px;
+  width: 342px;
+  height: 350px;
+  border: 1px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0px 100px;
+  z-index: 1;
+}
+
+.review_content--photo {
+  position: relative;
+  left: 30px;
+  top: -80px;
+  border-radius: 80px;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  z-index: 4;
+  float: left;
+}
+
+.review_content--social {
+  position: relative;
+  left: 64px;
+  top: -38px;
+  width: 32px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  text-align: center;
+  border-radius: 22.5px;
+}
+
+.review_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -80px;
+}
+
+.review_text--name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 34px;
+  margin-top: -10px;
+  color: #ffffff;
+}
+
+.review_text--title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fc5521;
+}
+
+.review_text--text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  padding: 25px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 920px) {
+  .review {
+    background: #ffffff;
+    border-radius: 0px 100px;
+  }
+}
+
+.footer {
+  background: #1d4049;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer--light {
+  min-width: 365px;
+  background: #ffffff;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_top--emblem {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-up {
+  position: relative;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: 5px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.btn-up--dark {
+  position: relative;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  background: #1d4049;
+  margin-left: auto;
+  margin-right: 5px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.footer_text--colorLight {
+  color: #ffffff;
+}
+
+.footer_text--colorDark {
+  background: #1d4049;
+}
+
+.footer_text--big {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  margin-top: -20px;
+  padding-bottom: 10px;
+  text-align: center;
+  /* White */
+}
+
+.footer_text--medium {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  /* White */
+}
+
+.footer_text--number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  padding-top: 10px;
+  text-align: right;
+  letter-spacing: 0.05em;
+}
+
+.footer_text--small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  /* identical to box height, or 29px */
+  text-align: right;
+}
+
+.footer_line {
+  width: 80%;
+  height: 1px;
+  background: #fc5521;
+  margin-bottom: 10px;
+}
+
+.footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_social--icon {
+  margin: 10px;
+}
+
+.footer_desktop--link:hover {
+  color: #fc5521;
+}
+
+.question {
+  display: none;
+}
+
+.question_block {
+  display: none;
+}
+
+.footer_desktop--link {
+  display: none;
+}
+
+.footer_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 920px) {
+  .footer {
+    display: none;
+  }
+  .footer--light {
+    display: none;
+  }
+  .footer_desktop {
+    background: #ffffff;
+    border-radius: 0px 100px 0px 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .footer_desktop--logo {
+    text-align: center;
+  }
+  .footer_desktop--menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  .footer_desktop--link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* Black */
+    color: #000000;
+  }
+  .footer_desktop--social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .footer_desktop--block {
+    margin-left: 70px;
+  }
+  .question_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 80px;
+    border-radius: 0px 100px;
+    background: url(../img/Rectangle5.png);
+    height: 574px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .question_form {
+    width: 850px;
+    height: 370px;
+    background: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(7px);
+            backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+  }
+  .question_form--top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 40px;
+  }
+  .question_form--form {
+    width: 300px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding-left: 20px;
+  }
+  .question_form--bigform {
+    width: 730px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+  }
+  .question_form--bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .question_button {
+    text-align: center;
+  }
+  .qst_btn {
+    margin-top: 35px;
+    width: 333px;
+    height: 60px;
+    background: #fc5521;
+    border-radius: 72px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .qst_btn:hover {
+    background: #ffffff;
+    color: #fc5521;
+  }
+  .footer_text--big {
+    display: none;
+  }
+}
+
+.tours_header {
+  min-width: 365px;
+  background: url(../img/toursbg.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.toursDescription {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.toursDescription--reverse {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.toursDescription--dark {
+  background: #1d4049;
+}
+
+.toursDescription--light {
+  background: white;
+}
+
+.toursDescription_number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 210px;
+  line-height: 256px;
+  /* identical to box height */
+  color: rgba(252, 85, 33, 0.3);
+}
+
+.toursDescription_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  margin-left: 96px;
+  margin-top: -90px;
+}
+
+.toursTitle-light {
+  color: white;
+}
+
+.toursTitle-dark {
+  color: #1d4049;
+}
+
+.toursDescription_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 68px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 60px;
+}
+
+.toursText-light {
+  color: white;
+}
+
+.toursText-dark {
+  color: #1d4049;
+}
+
+.toursDescription_image {
+  margin-left: 20px;
+  width: 344px;
+  height: 594px;
+  border-radius: 0px 100px;
+  overflow: hidden;
+}
+
+.toursDescription_image img {
+  position: relative;
+  z-index: 3;
+}
+
+.toursDescription_frame {
+  position: relative;
+  left: 10px;
+  top: -582px;
+  border: 3px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0px 100px;
+  width: 342px;
+  height: 594px;
+  z-index: 2;
+}
+
+.toursDescription_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: -520px;
+}
+
+.toursLink {
+  /* identical to box height, or 36px */
+  margin-left: 15px;
+  margin-right: 25px;
+  /* Orange */
+  color: #fc5521;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 920px) {
+  .toursDescription {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .toursDescription--reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .toursDescription_block {
+    width: 45%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .toursDescription--light {
+    background: #1d4049;
+  }
+  .toursText-dark {
+    color: #fff;
+  }
+  .toursTitle-dark {
+    color: #fff;
+  }
+}
+
+.bookingHeader {
+  min-width: 365px;
+  background: url(../img/bookingH.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.booking_header--container {
+  height: 80vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bookingSection {
+  background: #1d4049;
+  padding-bottom: 150px;
+}
+
+.booking_form {
+  background: #778c92;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  margin: 15px;
+  padding: 40px 15px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.booking_input {
+  padding: 0 20px;
+  margin: 15px;
+  height: 60px;
+  background: #ffffff;
+  border: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.booking_input--large {
+  height: 170px;
+  padding: 0 20px;
+  margin: 15px;
+  border: #ffffff;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.booking_radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.booking_radio--text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  margin-bottom: 35px;
+}
+
+.booking_input--value {
+  color: black;
+}
+
+.booking_submit {
+  background: #fc5521;
+  border-radius: 72px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 19px;
+}
+
+.tour_section {
+  background: #1d4049;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tour_text {
+  margin: 25px 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  padding-left: 20px;
+  /* or 32px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+}
+
+.tour_photo {
+  height: 580px;
+  margin: 25px 15px;
+  -webkit-filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.tour_chapter {
+  margin: 25px 15px;
+}
+
+.tour_hthree {
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 180%;
+  color: white;
+}
+
+.tour_button {
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  border: 1px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  width: 178px;
+  height: 40px;
+  color: #fc5521;
+  margin-bottom: 25px;
+}
+
+.tour_button--desc {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  background: #fc5521;
+  border: 1px solid #fc5521;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 72px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  width: 328px;
+  height: 40px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.tour_button--container {
+  text-align: center;
+}
+
+@media screen and (min-width: 920px) {
+  .tour_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tour_block--reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .tour_text {
+    width: 45%;
+  }
+  .tour_photo {
+    width: 45%;
+  }
+  .tour_par {
+    margin: 25px 15px;
+    width: 45%;
+  }
+  .tour_button--desc {
+    display: block;
+  }
+  .tour_button {
+    display: none;
+  }
+}
+
+.contact_header {
+  background: url(../img/bookingH.png);
+  height: 80vh;
+  background-size: cover;
+  background-position: 30% 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.contact_header--container {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+  padding-right: -100px;
+  width: 100%;
+}
+
+#mapid {
+  height: 100vh;
+}
+
+.contact_section {
+  background: #1d4049;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_container {
+  padding-top: 25px;
+}
+
+.contact_image {
+  height: 100vh;
+  background: url(../img/Window.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.contact_window {
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  margin: 65px 15px;
+  border-radius: 20px;
+}
+
+.contact_window--header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 180%;
+  /* identical to box height, or 54px */
+  padding: 47px;
+  white-space: nowrap;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact_window--point {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 180%;
+  /* identical to box height, or 40px */
+  color: #ffffff;
+}
+
+.contact_window--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 555px) {
+  .contact_window--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 40px;
+  }
+}
+
+.contact_window--svg {
+  padding-left: 35px;
+  padding-right: 33px;
+}
+
+.contact_social--header {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 180%;
+  white-space: nowrap;
+  padding-top: 50px;
+  /* or 43px */
+  color: #ffffff;
+}
+
+.contact_social--container {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 45px;
+}
+
+@media screen and (min-width: 900px) {
+  .contact_container {
+    padding-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #mapid {
+    height: 100vh;
+    width: 40%;
+  }
+  .contact_image {
+    width: 40%;
+  }
+}
+
+.submit_booking {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  text-align: center;
+}
+
+.submit_booking--closebtn {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffff;
+  display: block;
+  /* Display block instead of inline */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 60px;
+}
+
+.submit_booking--header {
+  font-family: " Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 180%;
+  color: #ffff;
+  padding-top: 200px;
+}
+
+.submit_booking--title {
+  font-family: " Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 180%;
+  color: #ffff;
+}
+
+.submit_booking--text {
+  font-family: " Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 180%;
+  color: #ffff;
+  padding-top: 40px;
+}
+/*# sourceMappingURL=main.css.map */

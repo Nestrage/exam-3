@@ -1,0 +1,112 @@
+.announcement {
+  background-color: #1d4049;
+  min-width: $width;
+}
+.announcement_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .announcement_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/*.announcement_container {
+  //border: red solid 2px;
+}*/
+.announcement_container--content {
+  height: 570px;
+  //border: blue solid 2px;
+}
+
+.announcement_orange_frame {
+  position: relative;
+  top: -450px;
+  left: 10px;
+  margin-right: 35px;
+  height: 500px;
+  width: 332px;
+  border: 3px solid #fc5521;
+  border-radius: 0px 100px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.announcement_photo {
+  background: url(../img/Photo.png);
+  background-size: cover;
+  border-radius: 0px 100px;
+  position: relative;
+  top: 30px;
+  left: 26px;
+  z-index: 2;
+  width: 332px;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+.announcement_photo-2 {
+  background: url(../img/ph22.png);
+  background-size: cover;
+  border-radius: 0px 100px;
+  position: relative;
+  top: 30px;
+  left: 26px;
+  z-index: 2;
+  width: 332px;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+.announcement_photo--blur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+}
+.announce_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #121c20;
+}
+.announce_date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #121c20;
+}
+.announcement_button {
+  background: #fc5521;
+  border-radius: 72px;
+  width: 244px;
+  height: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,0 +1,54 @@
+.description {
+  min-width: $width;
+  // height: 100vh;
+  background-color: #1d4049;
+}
+@media screen and (min-width: 750px) {
+  .description {
+    display: flex;
+    height: auto;
+  }
+}
+.description_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  //padding-left: 15px;
+  // padding-right: 15px;
+  padding-bottom: 54px;
+}
+.description_container--content {
+  text-align: center;
+}
+
+.desc_h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 25px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+  margin: 35px 0px;
+}
+
+.desc_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
